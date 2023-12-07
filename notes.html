@@ -191,8 +191,11 @@ In software engineering, this is not (yet) the case.
 
     <ul>
         <li>intolerable risk, elements need to abandoned, replaced or evolved to reduce vulnerabilities.</li>
+        <il>Example: A new AI algorithm poses significant privacy risks that cannot be mitigated. The company decides to abandon its development. </il>
         <li>tolerable risk, risks have been reduced using solutions to as long as reasonably possible (ALARP).</li>
-        <li>acceptable risk, risk reduction not needed - upside risk that companies not only accept but embrace.</li>
+        <il>Example: A cloud service provider acknowledges the risk of downtime but has mitigated it with robust backup systems, accepting a minimal level of risk due to natural disasters.</il>
+            <li>acceptable risk, risk reduction not needed - upside risk that companies not only accept but embrace.</li>
+            <il>Example: A tech startup invests in a risky but innovative project, understanding that the potential high reward justifies the risk.</il>
     </ul></ul>
 
 <ul><ul>
@@ -201,9 +204,17 @@ In software engineering, this is not (yet) the case.
 
     <ul>
         <li>routine risks, normal decision process that make use of statistics and data to inform decisions.</li>
+        <il>Example: An IT manager regularly updates security protocols based on routine risk assessments of potential system vulnerabilities.</il>
+
         <li>complex risks, less obvious may need to gather more evidence and perform cost analysis.</li>
+        <il> it needs more detailed discussion </il>
+        <il>Example: Deciding whether to integrate a new, untested technology into existing systems, requiring detailed analysis of potential impacts and costs.</il>
         <li>uncertain risks, lack of predictability and need to monitor impact and roll back any solutions.</li>
+        <il>Example: A company decides to use a new AI algorithm to improve its customer service, but the algorithm is not yet fully understood and may have unintended consequences.</il>
         <li>ambiguous risks, stakeholders interpret risk differently, need to ensure participatory decision making.</li>
+        <il>Interpretation of these risks are depend on interpreter.</il>
+        <il>Example: Like house price are ambiguous. Different experts can come up with different price ideas.</il>
+        <il>So the data that is not very clear.</il>
     </ul></li>
 </ul>
 <h2>Consultancy and contract hire</h2>
@@ -681,6 +692,18 @@ Example: warrant issued in line with the (UK) Investigatory Powers Act (IPA) 201
     <li>check that solution actually addresses the perceived problem.</li>
     <li>produce report, communicate changes and identify the next set of problems</li>
 </ul>
+
+<div>
+    <h2>Plan-Do-Check-Act (PDCA) Cycle</h2>
+    <p>The PDCA cycle is a well-established framework for continuous improvement in management. It consists of four iterative steps:</p>
+    <ol>
+        <li><strong>Plan:</strong> Identify areas of improvement and develop strategies to address these issues. This involves understanding the problem and planning a solution.</li>
+        <li><strong>Do:</strong> Implement the solution. This step includes taking action, allocating resources, and organizing necessary assets to achieve the planned outcome.</li>
+        <li><strong>Check:</strong> Evaluate the effectiveness of the solution. This involves collecting and analyzing data to ascertain if the solution is working as intended and to identify any unintended consequences.</li>
+        <li><strong>Act:</strong> Report and communicate the results. This step includes informing others about the outcomes and learning from the experience for future improvements.</li>
+    </ol>
+    <p>The cycle is iterative, meaning that it begins again at the planning stage after the act stage to address new problems, improve upon the solution, or handle unintended consequences, thereby ensuring continuous improvement.</p>
+</div>
 <h1>Decisions and Discrimination</h1>
 
 <h2>Overview</h2>
@@ -767,33 +790,127 @@ The decision process is often not transparent to individuals.
     <li>Lack of insight into how data is used to make decisions.</li>
     <li>Impact from automated decisions could have a significant impact on an individual.</li>
 </ul>
-<h2>Data Protection Impact Assessment</h2>
+
+<div>
+    <h2>Data Protection Impact Assessment (DPIA) Summary</h2>
+    <ol>
+        <li><strong>Definition and Purpose:</strong> A process for organizations to document and consider the implications and risks of processing personal data.</li>
+        <li><strong>When Required:</strong> Mandatory when data processing poses a high risk.</li>
+        <li><strong>Good Practice:</strong> Advisable for large projects involving personal data processing.</li>
+        <li><strong>Key Considerations:</strong>
+            <ul>
+                <li><em>Context:</em> Data collection, storage, usage, and sharing.</li>
+                <li><em>Scope:</em> Nature, volume, sensitivity, and frequency of data.</li>
+                <li><em>Nature:</em> Source of data and organization-individual relationship.</li>
+                <li><em>Purpose:</em> Intended outcome for individuals and society.</li>
+            </ul>
+        </li>
+        <li><strong>Risk Assessment:</strong> Identifying and mitigating potential risks to individuals.</li>
+        <li><strong>Compliance and Necessity:</strong> Ensuring processing aligns with regulations and is necessary for the intended outcome.</li>
+        <li><strong>Consultation:</strong> Involving affected individuals or their representatives.</li>
+        <li><strong>Risks Identification and Assessment:</strong> Determining potential risks, their severity, and likelihood.</li>
+        <li><strong>Mitigation Solutions:</strong> Developing strategies to address identified risks.</li>
+        <li><strong>Documentation:</strong> Keeping a record of all DPIA considerations and actions.</li>
+        <li><strong>Publishing DPIA:</strong> Not mandatory, but considered good practice.</li>
+        <li><strong>High-Risk Situations:</strong> Reporting unmitigable high risks to the national data protection authority.</li>
+    </ol>
+</div>
+
+
 <ul>
-    <li>DPIA process is to support organisations in considering and determining the risks associated with data protection.</li>
-    <li>DPIA must consider:</li>
+    <li>context, scope, nature and purpose of data processing</li>
+    <li>risks to individuals</li>
+    <li>mitigation measures for those risks</li>
+    <li>assess compliance, proportionality and necessity of processing.</li>
 
-    <ul>
-        <li>context, scope, nature and purpose of data processing</li>
-        <li>risks to individuals</li>
-        <li>mitigation measures for those risks</li>
-        <li>assess compliance, proportionality and necessity of processing.</li>
+</ul>
+<li>DPIA is required if you meet the requirements of Article 22.</li>
 
-    </ul>
-    <li>DPIA is required if you meet the requirements of Article 22.</li>
+<ul>
+    <li>DPIA can also be used to determine if processing does come under Article 22.</li>
 
-    <ul>
-        <li>DPIA can also be used to determine if processing does come under Article 22.</li>
+</ul>
+<li>Determine the risks of the profiling and automated decision-making process and the mitigation to those risks.</li>
+<li>Publish the DPIA, but this is not required.</li>
+<li>If you identify high risks that you can not mitigate then the DPIA must be submitted to the ICO (in the UK context).</li>
 
-    </ul>
-    <li>Determine the risks of the profiling and automated decision-making process and the mitigation to those risks.</li>
-    <li>Publish the DPIA, but this is not required.</li>
-    <li>If you identify high risks that you can not mitigate then the DPIA must be submitted to the ICO (in the UK context).</li>
-
-    <ul>
-        <li>The ICO can advise of the income, including prohibiting the intended processing.</li>
-    </ul></li>
+<ul>
+    <li>The ICO can advise of the income, including prohibiting the intended processing.</li>
+</ul></li>
 </ul>
 <h2>Anti-Discrimination</h2>
+
+
+<div>
+    <ol>
+        <li><strong>Definition of Discrimination</strong>
+            <ul>
+                <li>Discrimination: Treating a person or group less favorably than others based on personal characteristics.</li>
+            </ul>
+        </li>
+        <li><strong>UK Equality Act 2010 Overview</strong>
+            <ul>
+                <li>Consolidation of previous legislations like the Race Relations Act, Sex Discrimination Act, Disability Discrimination Act.</li>
+                <li>Protects individual rights and promotes equality.</li>
+            </ul>
+        </li>
+        <li><strong>Protected Characteristics under the Act</strong>
+            <ul>
+                <li>Age</li>
+                <li>Disability</li>
+                <li>Gender reassignment</li>
+                <li>Marriage and civil partnership</li>
+                <li>Pregnancy and maternity</li>
+                <li>Race (including color, ethnic or national origins)</li>
+                <li>Religion or belief</li>
+                <li>Sex</li>
+                <li>Sexual orientation</li>
+            </ul>
+        </li>
+        <li><strong>Types of Discrimination</strong>
+            <ul>
+                <li><em>Direct Discrimination</em>: Different treatment because of a protected characteristic.</li>
+                <li><em>Indirect Discrimination</em>: Policies that apply to all but adversely affect those with a protected characteristic.</li>
+            </ul>
+        </li>
+        <li><strong>Permitted Discrimination</strong>
+            <ul>
+                <li>Legally allowed if it is a proportionate means to achieve a legitimate aim (e.g., health and safety).</li>
+                <li>Can be challenged in court.</li>
+            </ul>
+        </li>
+        <li><strong>Examples of Discrimination Cases</strong>
+            <ul>
+                <li>Sex: Discrimination based on sex or marital status, with certain occupational exceptions.</li>
+                <li>Race: Illegal discrimination based on race, replaced by the Equality Act 2010.</li>
+                <li>Age: Includes issues like compulsory retirement age and employment programs affecting certain age groups.</li>
+                <li>Disability: Illegal discrimination based on disability, employers required to make reasonable adjustments.</li>
+            </ul>
+        </li>
+        <li><strong>Expectations for Employers</strong>
+            <ul>
+                <li>Make reasonable adjustments for disabilities.</li>
+                <li>Need to comply with Web Content Accessibility Guidelines.</li>
+                <li>Provide accessible software and systems.</li>
+            </ul>
+        </li>
+        <li><strong>Legal Context and Enforcement</strong>
+            <ul>
+                <li>Permitted discrimination can be contested in court.</li>
+                <li>Importance of proportionality and legitimacy in permitted discrimination.</li>
+            </ul>
+        </li>
+        <li><strong>Role of Technology</strong>
+            <ul>
+                <li>Software engineers and system designers should ensure accessibility for all users, including those with disabilities.</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
+
+
+
 <h3>The (UK) Equality Act 2010</h3>
 
 The (UK) Equality Act 2010 aims to progress equality and protect the rights of individuals from discrimination.
@@ -899,6 +1016,96 @@ Employers can support employees in attaining the act, via:
     <li>training and education.</li>
 </ul>
 <h2>Web Content Accesibility Guidelines</h2>
+
+
+<div>
+
+    <div>
+        <h3>Introduction:</h3>
+        <ul>
+            <li>WCAG: Internationally recognized guidelines for accessible websites and applications.</li>
+            <li>Aim: Ensure accessibility for all users, including those with disabilities.</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Four Core Principles:</h3>
+        <ol>
+            <li>
+                <strong>Perceivable:</strong>
+                <ul>
+                    <li><strong>Goal:</strong> Information and UI components must be presentable in ways users can perceive.</li>
+                    <li><strong>Examples:</strong> Alternative text for images, captions for videos.</li>
+                    <li><strong>Focus:</strong> Content should not be invisible to all senses of the user.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Operable:</strong>
+                <ul>
+                    <li><strong>Goal:</strong> UI components and navigation must be operable.</li>
+                    <li><strong>Examples:</strong> Users must be able to interact with all elements.</li>
+                    <li><strong>Focus:</strong> Ensuring interactive elements are accessible.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Understandable:</strong>
+                <ul>
+                    <li><strong>Goal:</strong> Information and operation of UI must be understandable.</li>
+                    <li><strong>Examples:</strong> Clear instructions, error messages, understandable language.</li>
+                    <li><strong>Focus:</strong> Make content and operations comprehensible.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Robust:</strong>
+                <ul>
+                    <li><strong>Goal:</strong> Content must be robust enough to be interpreted by a wide range of technologies, including assistive devices.</li>
+                    <li><strong>Examples:</strong> Structured documents for easy parsing.</li>
+                    <li><strong>Focus:</strong> Content compatibility with assistive technologies.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h3>Conformance Levels:</h3>
+        <ol>
+            <li>
+                <strong>Level A (Minimal):</strong>
+                <ul>
+                    <li><strong>Goal:</strong> Basic accessibility features.</li>
+                    <li><strong>Examples:</strong> Keyboard navigation, no keyboard traps.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Level AA (Acceptable):</strong>
+                <ul>
+                    <li><strong>Goal:</strong> More refined accessibility features.</li>
+                    <li><strong>Examples:</strong> Consistent navigation elements, properly labeled headings.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Level AAA (Optimal):</strong>
+                <ul>
+                    <li><strong>Goal:</strong> Highest standard of accessibility.</li>
+                    <li><strong>Examples:</strong> Sign language interpretation for videos, context-relevant help.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h3>Compliance:</h3>
+        <ul>
+            <li>Not all content may achieve Level AAA, but Level A is a minimum standard.</li>
+            <li>Tools and metrics available for assessing conformance to these levels.</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Conclusion:</h3>
+        <ul>
+            <li>WCAG principles and conformance levels guide the development of accessible digital content.</li>
+            <li>Aim is to accommodate diverse user needs, ensuring wide accessibility.</li>
+        </ul>
+    </div>
+</div>
+
 
 https://www.w3.org/TR/WCAG21/ - link in moodle books
 <br>
@@ -1179,7 +1386,66 @@ Automated decision-making solutions may also come with the scope of the (UK) Equ
     <li>Systems that do not use personal data, do not come within the scope of data protection legislation, e.g. prediction of the weather.</li>
     <li>Systems that do use personal data for development, testing and deployment would come within the scope of data protection legislation.</li>
 </ul>
-<h3>Automated decision-making and Data Protection</h3>
+<h2>Automated decision-making and Data Protection</h2>
+
+
+<div>
+
+    <h3>EU General Data Protection Regulations & UK Data Protection Act</h3>
+    <ul>
+        <li>Regulate the processing and collection of personal data.</li>
+        <li>Automated decision-making systems using personal data fall under these regulations.</li>
+    </ul>
+
+    <h3>Scope of Data Protection Legislation</h3>
+    <strong>1. Systems Not Using Personal Data:</strong>
+    <p>If an automated decision-making system, like a weather prediction model, doesn't use personal data, it's outside the scope of data protection legislation.</p>
+
+    <strong>2. Systems Using Personal Data:</strong>
+    <p>Systems used in development, testing, and deployment of automated decision-making that utilize personal data fall within the scope of data protection legislation.</p>
+
+    <h3>Article 22 of GDPR</h3>
+    <p>States that individuals have the right not to be subject to decisions made solely on automated processing, including profiling, with legal or significant effects.</p>
+
+    <strong>Solely Automated Decision Making:</strong>
+    <p>Refers to decisions without human involvement. However, if the decision process includes significant human intervention, it's not considered solely automated.</p>
+    <p>Example: The HART tool used by police to assess reoffending risk isn't solely automated as the final decision rests with the officer.</p>
+
+    <h3>Legal Impact and Significant Effects</h3>
+    <p>Decisions affecting legal rights or having significant impacts on individuals fall under GDPR.</p>
+    <p>Example: Loan approval processes can significantly impact an individual’s life.</p>
+
+    <h3>Circumstances for Permitted Automated Decision-Making</h3>
+    <ul>
+        <li><strong>Performance of a Contract</strong></li>
+        <li><strong>Member State Legislation:</strong> Permitted if the country's legislation allows it.</li>
+        <li><strong>Explicit Consent:</strong> The individual must be fully informed and consent to the automated decision-making process.</li>
+    </ul>
+
+    <h3>Data Protection Impact Assessment (DPIA)</h3>
+    <p>Required for high-risk data processing and for processes that fall under Article 22.</p>
+    <p>Helps to identify and mitigate risks in profiling and automated decision-making processes.</p>
+
+    <h3>Rights Under GDPR</h3>
+    <ul>
+        <li><strong>Article 15:</strong> Right to be informed about automated decision-making processes.</li>
+        <li><strong>Article 21:</strong> Right to object to processing personal data, including profiling.</li>
+        <li><strong>Article 22:</strong> Right to not be subject to solely automated decision-making processes.</li>
+    </ul>
+
+    <h3>UK Equality Act 2010</h3>
+    <p>Automated decision-making systems must not result in discrimination based on protected characteristics.</p>
+    <p>Organizations must demonstrate non-discrimination and communicate this effectively.</p>
+
+    <h3>Conclusion</h3>
+    <p>Automated decision-making systems must navigate the complexities of data protection and equality laws, ensuring non-discriminatory practices and compliance with GDPR and the UK Data Protection Act.</p>
+</div>
+
+
+
+
+
+
 <ul>
 
     <ul>
